@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a46f7dbc-9e83-48fb-9f76-3637b358519a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_twitter_hpack_1_0_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_actor_2_13_2_6_8_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_actor_typed_2_13_2_6_8_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_http_2_13_10_2_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_http_core_2_13_10_2_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_parsing_2_13_10_2_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_protobuf_v3_2_13_2_6_8_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_slf4j_2_13_2_6_8_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_stream_2_13_2_6_8_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_config_1_4_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_ssl_config_core_2_13_0_4_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_reactivestreams_reactive_streams_1_0_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_java8_compat_2_13_0_9_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_parser_combinators_2_13_1_1_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_library_2_13_4_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_slf4j_slf4j_api_1_7_30_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/MongoScalaCRUD_API_WorkDone-build.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/MongoScalaCRUD_API_WorkDone.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/PracticeAndExperiment/akkahttp.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/.bsp/sbt.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/.idea/libraries/sbt__com_twitter_hpack_1_0_2_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/.idea/libraries/sbt__com_typesafe_akka_akka_actor_2_13_2_6_8_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/.idea/libraries/sbt__com_typesafe_akka_akka_actor_typed_2_13_2_6_8_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/.idea/libraries/sbt__com_typesafe_akka_akka_http_2_13_10_2_2_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/.idea/libraries/sbt__com_typesafe_akka_akka_http_core_2_13_10_2_2_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/.idea/libraries/sbt__com_typesafe_akka_akka_parsing_2_13_10_2_2_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/.idea/libraries/sbt__com_typesafe_akka_akka_protobuf_v3_2_13_2_6_8_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/.idea/libraries/sbt__com_typesafe_akka_akka_slf4j_2_13_2_6_8_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/.idea/libraries/sbt__com_typesafe_akka_akka_stream_2_13_2_6_8_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/.idea/libraries/sbt__com_typesafe_config_1_4_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/.idea/libraries/sbt__com_typesafe_ssl_config_core_2_13_0_4_1_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/.idea/libraries/sbt__org_reactivestreams_reactive_streams_1_0_3_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/.idea/libraries/sbt__org_scala_lang_modules_scala_java8_compat_2_13_0_9_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/.idea/libraries/sbt__org_scala_lang_modules_scala_parser_combinators_2_13_1_1_2_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/.idea/libraries/sbt__org_scala_lang_scala_library_2_13_4_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/.idea/libraries/sbt__org_slf4j_slf4j_api_1_7_30_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/.idea/modules/akkaHttpMyImplementation-build.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/.idea/modules/akkaHttpMyImplementation.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/.idea/sbt.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/.idea/scala_compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/build.sbt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/project/build.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/project/target/config-classes/$22510e12b32f38535488$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/project/target/config-classes/$22510e12b32f38535488.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/project/target/config-classes/$22510e12b32f38535488.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/project/target/config-classes/$739b276454c28015ac20$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/project/target/config-classes/$739b276454c28015ac20.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/project/target/config-classes/$739b276454c28015ac20.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/project/target/config-classes/$85ff78ca6937af0bffa9$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/project/target/config-classes/$85ff78ca6937af0bffa9.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/project/target/config-classes/$85ff78ca6937af0bffa9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/project/target/config-classes/$a84c18f128307881fce5$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/project/target/config-classes/$a84c18f128307881fce5.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/project/target/config-classes/$a84c18f128307881fce5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/project/target/config-classes/$b9f35f34c54426266935$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/project/target/config-classes/$b9f35f34c54426266935.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/project/target/config-classes/$b9f35f34c54426266935.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/project/target/config-classes/$bb1d6b9bd131eedbbd2a$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/project/target/config-classes/$bb1d6b9bd131eedbbd2a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/project/target/config-classes/$bb1d6b9bd131eedbbd2a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/inputs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/project/target/streams/_global/_global/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/project/target/streams/_global/_global/csrLogger/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/project/target/streams/_global/csrConfiguration/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/project/target/streams/_global/csrProject/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/project/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/input_dsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/project/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/output_dsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/project/target/streams/_global/ivyConfiguration/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/project/target/streams/_global/ivySbt/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/project/target/streams/_global/moduleSettings/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/project/target/streams/_global/projectDescriptors/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/project/target/streams/_global/scalaCompilerBridgeScope/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/project/target/streams/_global/update/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/project/target/streams/compile/_global/_global/compileOutputs/previous" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/project/target/streams/compile/_global/_global/discoveredMainClasses/data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/project/target/streams/compile/bspReporter/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/project/target/streams/compile/compile/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/project/target/streams/compile/compileIncremental/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/project/target/streams/compile/compileIncremental/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/project/target/streams/compile/copyResources/_global/streams/copy-resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/project/target/streams/compile/copyResources/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/project/target/streams/compile/dependencyClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/project/target/streams/compile/exportedProducts/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/project/target/streams/compile/externalDependencyClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/project/target/streams/compile/incOptions/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/project/target/streams/compile/internalDependencyClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/project/target/streams/compile/internalDependencyClasspath/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/project/target/streams/compile/managedClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/project/target/streams/compile/scalacOptions/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/project/target/streams/compile/unmanagedClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/project/target/streams/compile/unmanagedClasspath/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/project/target/streams/compile/unmanagedJars/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/project/target/streams/runtime/dependencyClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/project/target/streams/runtime/exportedProducts/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/project/target/streams/runtime/externalDependencyClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/project/target/streams/runtime/fullClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/project/target/streams/runtime/internalDependencyClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/project/target/streams/runtime/internalDependencyClasspath/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/project/target/streams/runtime/managedClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/project/target/streams/runtime/unmanagedClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/project/target/streams/runtime/unmanagedClasspath/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/project/target/streams/runtime/unmanagedJars/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/src/main/scala/understadingakkahttphere/AkkaFirstTrial.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/target/.history3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/target/scala-2.13/classes/AkkaFirstTrial$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/target/scala-2.13/classes/AkkaFirstTrial$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/target/scala-2.13/classes/AkkaFirstTrial.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/target/scala-2.13/update/update_cache_2.13/inputs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/target/scala-2.13/update/update_cache_2.13/output" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/target/streams/_global/_global/csrLogger/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/target/streams/_global/_global/dumpStructure/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/target/streams/_global/csrConfiguration/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/target/streams/_global/csrProject/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.13/input_dsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.13/output_dsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/target/streams/_global/ivyConfiguration/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/target/streams/_global/ivySbt/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/target/streams/_global/moduleSettings/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/target/streams/_global/projectDescriptors/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/target/streams/_global/update/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/target/streams/_global/updateClassifiers/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.13/inputs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.13/output" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/target/streams/_global/updateSbtClassifiers/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/target/streams/compile/externalDependencyClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/target/streams/compile/managedClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/target/streams/compile/scalacOptions/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/target/streams/compile/unmanagedClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/target/streams/compile/unmanagedClasspath/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/target/streams/compile/unmanagedJars/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/target/streams/runtime/externalDependencyClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/target/streams/runtime/managedClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/target/streams/runtime/unmanagedClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/target/streams/runtime/unmanagedClasspath/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/target/streams/runtime/unmanagedJars/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/target/streams/test/externalDependencyClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/target/streams/test/managedClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/target/streams/test/unmanagedClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/target/streams/test/unmanagedClasspath/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/akkaHttpMyImplementation/target/streams/test/unmanagedJars/_global/streams/export" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1n07zEJiA0FPZbsH19VSVdtNgeF" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunManager">
+    <configuration name="akkahttp" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="PracticeAndExperiment.akkahttp" />
+      <module name="MongoScalaCRUD_API_WorkDone" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PracticeAndExperiment.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.akkahttp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a46f7dbc-9e83-48fb-9f76-3637b358519a" name="Default Changelist" comment="" />
+      <created>1610515416475</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1610515416475</updated>
+      <workItem from="1610515419351" duration="784000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
