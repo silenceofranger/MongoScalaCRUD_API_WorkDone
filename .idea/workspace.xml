@@ -5,17 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a46f7dbc-9e83-48fb-9f76-3637b358519a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Client_CRUD-build.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Client_CRUD-build.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_actor_2_13_2_6_8_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_actor_typed_2_13_2_6_8_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_http_2_13_10_2_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_protobuf_v3_2_13_2_6_8_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_slf4j_2_13_2_6_8_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_config_1_4_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_ssl_config_core_2_13_0_4_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_slf4j_slf4j_api_1_7_30_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_actor_2_13_2_5_26_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_http_2_13_10_1_11_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_http_core_2_13_10_1_11_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_http_core_2_13_10_2_2_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_parsing_2_13_10_1_11_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_parsing_2_13_10_2_2_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_protobuf_2_13_2_5_26_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_stream_2_13_2_5_26_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_stream_2_13_2_6_8_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_config_1_3_3_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_twitter_hpack_1_0_2_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_ssl_config_core_2_13_0_3_8_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_reactivestreams_reactive_streams_1_0_2_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_reactivestreams_reactive_streams_1_0_3_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/MongoScalaCRUD_API_WorkDone.Client_CRUD.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/MongoScalaCRUD_API_WorkDone.Client_CRUD.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/org/ClientRouteConfig.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/org/ClientRouteConfig.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/org/WebServer.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/org/WebServer.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/org/db/config/DbConfig.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/org/db/config/DbConfig.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/org/db/data/Client.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/org/db/data/Client.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/org/domain/ClientRequest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/org/domain/ClientRequest.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/org/service/ClientService.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/org/service/ClientService.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/org/user/actor/ClientActor.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/org/user/actor/ClientActor.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/org/user/repositories/ClientRepo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/org/user/repositories/ClientRepo.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/org/utils/JsonUtils.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/org/utils/JsonUtils.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/org/ClientRouteConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/org/ClientRouteConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/org/WebServer$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/org/WebServer$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/org/db/config/DbConfig$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/org/db/config/DbConfig$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/org/user/actor/ClientActor$$anonfun$receive$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/org/user/actor/ClientActor$$anonfun$receive$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/org/user/repositories/ClientRepo$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/org/user/repositories/ClientRepo$.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +134,7 @@
       <workItem from="1610518307760" duration="111000" />
       <workItem from="1610518475244" duration="42000" />
       <workItem from="1610518528848" duration="2585000" />
-      <workItem from="1610522612762" duration="5205000" />
+      <workItem from="1610522612762" duration="7209000" />
     </task>
     <servers />
   </component>

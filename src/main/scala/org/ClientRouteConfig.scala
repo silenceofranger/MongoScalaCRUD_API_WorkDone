@@ -25,7 +25,6 @@ class ClientRouteConfig(implicit val system: ActorSystem) extends JsonUtils {
 
 
   val getRoute: Route =
-
     PathDirectives.pathPrefix("client") {
       concat(
         path("create") {
@@ -37,7 +36,6 @@ class ClientRouteConfig(implicit val system: ActorSystem) extends JsonUtils {
             }
           }
         },
-
         path("search") {
           get {
             val resultFuture = Patterns.ask(clientActor, SEARCH_ALL, TimeUtils.timeoutMills)
@@ -46,36 +44,34 @@ class ClientRouteConfig(implicit val system: ActorSystem) extends JsonUtils {
             RouteDirectives.complete(HttpEntity(ContentTypes.`text/plain(UTF-8)`, resultByteString))
           }
         },
-
+        // IMPLEMENTATION OF PAGINATION
+        path("paging") {
+          get {
+            parameter("page","rows") { (pageNumber, messagesPerPage) =>
+              val resultFuture = Patterns.ask(clientActor, SEARCH_SOME(pageNumber.toInt, messagesPerPage.toInt), TimeUtils.timeoutMills)
+              val resultSource = Await.result(resultFuture, TimeUtils.atMostDuration).asInstanceOf[Source[Client, NotUsed]]
+              val resultByteString = resultSource.map { it => ByteString.apply(it.toJson.toString.getBytes()) }
+              RouteDirectives.complete(HttpEntity(ContentTypes.`text/plain(UTF-8)`, resultByteString))
+            }
+          }
+        },
         path("update") {
           put {
             parameter("id") { id =>
               entity(as[ClientRequest]) { client =>
                 val future = Patterns.ask(clientActor, UPDATE(client, id), TimeUtils.timeoutMills)
                 Await.result(future, TimeUtils.atMostDuration)
-                RouteDirectives.complete(HttpEntity("Data updated saved successfully!"))
+                RouteDirectives.complete(HttpEntity("Data Updated Successfully!"))
               }
             }
           }
         },
-
         path("delete") {
           delete {
             parameter("id") { id =>
               val resultFuture = Patterns.ask(clientActor, DELETE(id), TimeUtils.timeoutMills)
               Await.result(resultFuture, TimeUtils.atMostDuration)
-              RouteDirectives.complete(HttpEntity(s"Data updated saved successfully!"))
-            }
-          }
-        },
-
-          path("pagination") {
-          get {
-            parameter("pageNumber","messagesPerPage") { (pageNumber, messagesPerPage) =>
-              val resultFuture = Patterns.ask(clientActor, SEARCH_SOME(pageNumber.toInt, messagesPerPage.toInt), TimeUtils.timeoutMills)
-              val resultSource = Await.result(resultFuture, TimeUtils.atMostDuration).asInstanceOf[Source[Client, NotUsed]]
-              val resultByteString = resultSource.map { it => ByteString.apply(it.toJson.toString.getBytes()) }
-              RouteDirectives.complete(HttpEntity(ContentTypes.`text/plain(UTF-8)`, resultByteString))
+              RouteDirectives.complete(HttpEntity(s"Data Deleted Successfully!"))
             }
           }
         }

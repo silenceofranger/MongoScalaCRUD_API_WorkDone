@@ -10,27 +10,27 @@ class ClientActor extends Actor with ActorLogging {
 
   override def receive: Receive = {
     case SAVE(client: ClientRequest) =>
-      log.info(s"received message Save with client $client")
+      log.info(s"CLIENT GETTING SAVED : $client")
       sender ! clientService.saveClientData(client)
 
     case SEARCH_ALL =>
-      log.info(s"received message find all")
+      log.info(s"SHOW ALL")
       sender() ! clientService.findAll
 
     case UPDATE(cl,id) =>
-      log.info(s"received message find all")
+      log.info(s"UPDATE DONE ON ID : $id")
       sender() ! clientService.update(cl,id)
 
     case DELETE(id)=>
-      log.info(s"delete message received for the id: $id")
+      log.info(s"CLIENT WITH THIS ID IS DELETED: $id")
       sender() ! clientService.delete(id)
 
     case SEARCH_SOME(pageNumber, messagesPerPage) =>
-      log.info(s"received message find some for pagination")
+      log.info(s"REQUEST RECEIVED PAGINATION DONE")
       sender() ! clientService.findSome(pageNumber, messagesPerPage)
 
     case _ =>
-      log.debug("Unhandled message!")
+      log.debug("Request not supported")
 
   }
 }

@@ -24,7 +24,7 @@ object WebServer extends App {
   }
   val serverFuture = Http().bindAndHandle(routes, "localhost", 8080)
   val port = 8080
-  println(s"Server started at port = ${port}")
+  println(s"SEVER IS ONLINE ON PORT NUMBER = ${port}, PRESS ENTER TO STOP")
   StdIn.readLine()
   serverFuture
     .flatMap(_.unbind())

@@ -11,10 +11,7 @@ import org.mongodb.scala.model.Sorts.ascending
 import org.mongodb.scala.model.Updates.{combine, set}
 import org.mongodb.scala.result.DeleteResult
 import org.utils.JsonUtils
-
 import scala.concurrent.Future
-
-
 
 object ClientRepo extends JsonUtils {
 

@@ -27,7 +27,6 @@ object DbConfig {
 
   val settings: MongoClientSettings = MongoClientSettings.builder()
     .applyToClusterSettings(b => b.hosts(List(new ServerAddress("localhost")).asJava))
-    //.credential(credential)
     .codecRegistry(fromRegistries(registry, javaCodecs, DEFAULT_CODEC_REGISTRY))
     .build()
 
