@@ -5,4 +5,4 @@ import java.lang.annotation.Documented
 
 
 @Documented
-case class Client(_id: String, name: String, inboundFeedURL: String , YOE: Int)
+case class Client(_id: String, name: String, inboundFeedURL: String)

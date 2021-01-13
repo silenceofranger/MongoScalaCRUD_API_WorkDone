@@ -14,7 +14,6 @@ object WebServer extends App {
   private implicit val dispatcher: ExecutionContextExecutor = system.dispatcher
   private implicit val materialize: ActorMaterializer = ActorMaterializer()
 
-
   private val routeConfig = new ClientRouteConfig()
   val routes = {
     pathPrefix("api") {
@@ -24,8 +23,8 @@ object WebServer extends App {
     }
   }
   val serverFuture = Http().bindAndHandle(routes, "localhost", 8080)
-
-  println("Server started ...")
+  val port = 8080
+  println(s"Server started at port = ${port}")
   StdIn.readLine()
   serverFuture
     .flatMap(_.unbind())

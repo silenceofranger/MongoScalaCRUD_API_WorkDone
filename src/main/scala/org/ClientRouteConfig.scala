@@ -76,7 +76,6 @@ class ClientRouteConfig(implicit val system: ActorSystem) extends JsonUtils {
               val resultSource = Await.result(resultFuture, TimeUtils.atMostDuration).asInstanceOf[Source[Client, NotUsed]]
               val resultByteString = resultSource.map { it => ByteString.apply(it.toJson.toString.getBytes()) }
               RouteDirectives.complete(HttpEntity(ContentTypes.`text/plain(UTF-8)`, resultByteString))
-              //RouteDirectives.complete(HttpEntity(s"Data updated saved successfully!"))
             }
           }
         }

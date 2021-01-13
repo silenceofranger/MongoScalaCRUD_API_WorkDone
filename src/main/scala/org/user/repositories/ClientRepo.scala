@@ -50,8 +50,7 @@ object ClientRepo extends JsonUtils {
   private def setBsonValue(client: Client): Bson = {
     combine(
       set("name", client.name),
-      set("inboundFeedURL", client.inboundFeedURL),
-      set("YOE", client.YOE)
+      set("inboundFeedURL", client.inboundFeedURL)
     )
   }
 }

@@ -14,9 +14,6 @@ import org.user.repositories.ClientRepo
 
 import scala.concurrent.{ExecutionContextExecutor, Future}
 
-
-
-
 class ClientService {
 
   implicit val actorSystem: ActorSystem = ActorSystem()
@@ -44,8 +41,6 @@ class ClientService {
       }
   }
 
-
-
   def update(clientRequest: ClientRequest, id: String): Future[Client] = {
     val clientDoc: Client = clientMapperWithNewID(clientRequest)
     ClientRepo.update(cl = clientDoc, id)
@@ -56,7 +51,7 @@ class ClientService {
   }
 
   private def clientMapperWithNewID(client: ClientRequest) = {
-    Client(name = client.name, inboundFeedURL = client.inboundFeedURL, YOE = client.YOE , _id = UUID.randomUUID.toString)
+    Client(name = client.name, inboundFeedURL = client.inboundFeedURL, _id = UUID.randomUUID.toString)
   }
 
 }

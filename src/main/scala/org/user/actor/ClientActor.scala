@@ -46,6 +46,3 @@ case class SEARCH_SOME(pageNumber: Int, messagesPerPage: Int) extends ClientActo
 case class UPDATE(cl: ClientRequest, id: String) extends ClientActorMessage
 
 case class DELETE(id: String) extends ClientActorMessage
-
-
-

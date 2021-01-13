@@ -35,8 +35,6 @@ object DbConfig {
 
   val database: MongoDatabase = client.getDatabase("test")
 
-  val clients: MongoCollection[Client] = database.getCollection("client_collection")
-
-
+  val clients: MongoCollection[Client] = database.getCollection("clients_and_inboundFeed_collection")
 
 }
