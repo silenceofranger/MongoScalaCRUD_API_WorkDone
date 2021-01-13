@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ScalaCompilerConfiguration">
-    <profile name="sbt 1" modules="MongoScalaCRUD_API_WorkDone,mongoscalacrud_api_workdone" />
+    <profile name="sbt 1" modules="MongoScalaCRUD_API_WorkDone,MongoScalaCRUD_API_WorkDone.Client_CRUD,Preeti_Client_CRUD,mongoscalacrud_api_workdone" />
   </component>
 </project>

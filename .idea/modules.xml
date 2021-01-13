@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MongoScalaCRUD_API_WorkDone.iml" filepath="$PROJECT_DIR$/.idea/modules/MongoScalaCRUD_API_WorkDone.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MongoScalaCRUD_API_WorkDone-build.iml" filepath="$PROJECT_DIR$/.idea/modules/MongoScalaCRUD_API_WorkDone-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Client_CRUD-build.iml" filepath="$PROJECT_DIR$/.idea/modules/Client_CRUD-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MongoScalaCRUD_API_WorkDone.Client_CRUD.iml" filepath="$PROJECT_DIR$/.idea/modules/MongoScalaCRUD_API_WorkDone.Client_CRUD.iml" />
     </modules>
   </component>
 </project>

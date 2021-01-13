@@ -1,4 +1,4 @@
-name := "Preeti_Client_CRUD"
+name := "Client_CRUD"
 
 version := "0.1"
 
