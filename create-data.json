@@ -1,3 +1,4 @@
-{"name" :  "LittleFinger",
-  "inboundFeedURL": "uvwx", "YOE": 2012
+{
+  "name" :  "CLIENT_NAME",
+  "inboundFeedURL": "Inbound_Feed_URL"
 }
