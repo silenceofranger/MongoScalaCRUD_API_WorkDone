@@ -5,37 +5,54 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a46f7dbc-9e83-48fb-9f76-3637b358519a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/practice/inheritance.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__ch_qos_logback_logback_classic_1_2_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__ch_qos_logback_logback_core_1_2_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_scala_logging_scala_logging_2_13_3_9_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_slf4j_slf4j_api_1_7_26_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/org/service/ClientServers.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/MongoScalaCRUD_API_WorkDone.Client_CRUD.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/MongoScalaCRUD_API_WorkDone.Client_CRUD.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$21dc3bc05f3a66d557bc$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$21dc3bc05f3a66d557bc.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$21dc3bc05f3a66d557bc.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$506e350a52ac977fef22$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$506e350a52ac977fef22.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$506e350a52ac977fef22.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$beb5a1d8fa98d51dca70$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$beb5a1d8fa98d51dca70.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$beb5a1d8fa98d51dca70.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$f4d06863bf3cc7996857$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$f4d06863bf3cc7996857.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$f4d06863bf3cc7996857.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$f5ad27fba4fcb2d168ba$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$f5ad27fba4fcb2d168ba.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$f5ad27fba4fcb2d168ba.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$4d32bf6ee5cc481d807e$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$4d32bf6ee5cc481d807e.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$4d32bf6ee5cc481d807e.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/_global/_global/csrLogger/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/_global/_global/csrLogger/_global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/_global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/_global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/_global/update/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/_global/update/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/org/ClientRouteConfig.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/org/ClientRouteConfig.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/org/db/data/Client.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/org/db/data/Client.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/org/service/ClientService.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/org/service/ClientService.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/org/user/actor/ClientActor.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/org/user/actor/ClientActor.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/org/user/repositories/ClientRepo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/org/user/dbclientrepo/DBClientRepo.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/org/ClientRouteConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/org/ClientRouteConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/org/db/data/Client$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/org/db/data/Client$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/org/db/data/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/org/db/data/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/org/service/ClientService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/org/service/ClientService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/org/user/actor/ClientActor$$anonfun$receive$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/org/user/actor/ClientActor$$anonfun$receive$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/org/user/actor/ClientActor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/org/user/actor/ClientActor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/org/user/actor/DELETE$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/org/user/actor/DELETE$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/org/user/actor/DELETE.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/org/user/actor/DELETE.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/org/user/actor/SAVE$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/org/user/actor/SAVE$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/org/user/actor/SAVE.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/org/user/actor/SAVE.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/org/user/actor/SEARCH_ALL$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/org/user/actor/SEARCH_ALL$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/org/user/actor/SEARCH_SOME$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/org/user/actor/SEARCH_SOME$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/org/user/actor/SEARCH_SOME.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/org/user/actor/SEARCH_SOME.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/org/user/actor/UPDATE$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/org/user/actor/UPDATE$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/org/user/actor/UPDATE.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/org/user/actor/UPDATE.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/org/user/repositories/ClientRepo$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/org/user/repositories/ClientRepo.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.13/update/update_cache_2.13/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/update/update_cache_2.13/inputs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.13/update/update_cache_2.13/output" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/update/update_cache_2.13/output" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/_global/_global/csrLogger/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/_global/csrLogger/_global/streams/out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.13/input_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.13/input_dsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.13/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.13/output_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/update/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/update/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/updateClassifiers/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/updateClassifiers/_global/streams/out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.13/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.13/inputs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.13/output" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.13/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/managedClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/managedClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/_global/streams/export" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/_global/streams/export" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/test/managedClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/managedClasspath/_global/streams/export" afterDir="false" />
     </list>
@@ -54,6 +71,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
@@ -143,7 +168,7 @@
       <workItem from="1610818061796" duration="168000" />
       <workItem from="1610821867650" duration="99000" />
       <workItem from="1610821983891" duration="2376000" />
-      <workItem from="1610866503459" duration="4560000" />
+      <workItem from="1610866503459" duration="15783000" />
     </task>
     <servers />
   </component>

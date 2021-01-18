@@ -10,7 +10,7 @@ import org.db.data.Client
 import org.domain.ClientRequest
 import org.mongodb.scala.Completed
 import org.mongodb.scala.result.DeleteResult
-import org.user.repositories.ClientRepo
+import org.user.dbclientrepo.DBClientRepo
 
 import scala.concurrent.{ExecutionContextExecutor, Future}
 
@@ -24,18 +24,18 @@ class ClientService {
   def saveClientData: ClientRequest => Future[Completed] = (clientRequest: ClientRequest) => {
     val clientDoc: Client = clientMapperWithNewID(clientRequest)
 
-    ClientRepo.insertData(clientDoc)
+    DBClientRepo.insertData(clientDoc)
   }
 
   def findAll: Source[Client, NotUsed] = {
-    Source.fromFuture(ClientRepo.findAll())
+    Source.fromFuture(DBClientRepo.findAll())
       .mapConcat {
         identity
       }
   }
 
   def findSome(pageNumber: Int, messagesPerPage: Int) = {
-    Source.fromFuture(ClientRepo.findSome(pageNumber, messagesPerPage))
+    Source.fromFuture(DBClientRepo.findSome(pageNumber, messagesPerPage))
       .mapConcat {
         identity
       }
@@ -43,11 +43,11 @@ class ClientService {
 
   def update(clientRequest: ClientRequest, id: String): Future[Client] = {
     val clientDoc: Client = clientMapperWithNewID(clientRequest)
-    ClientRepo.update(cl = clientDoc, id)
+    DBClientRepo.update(cl = clientDoc, id)
   }
 
   def delete(id: String): Future[DeleteResult] = {
-    ClientRepo.delete(id)
+    DBClientRepo.delete(id)
   }
 
   private def clientMapperWithNewID(client: ClientRequest) = {

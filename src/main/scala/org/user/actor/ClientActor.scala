@@ -3,7 +3,6 @@ package org.user.actor
 import akka.actor.{Actor, ActorLogging}
 import org.domain.ClientRequest
 import org.service.ClientService
-
 class ClientActor extends Actor with ActorLogging {
 
   private val clientService: ClientService = new ClientService()

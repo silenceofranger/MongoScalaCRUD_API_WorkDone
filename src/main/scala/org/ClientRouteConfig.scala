@@ -15,10 +15,15 @@ import org.domain.ClientRequest
 import org.user.actor._
 import org.utils.{JsonUtils, TimeUtils}
 import spray.json.enrichAny
-
+import akka.http.scaladsl.model.{ContentTypes, HttpEntity, StatusCodes}
+import akka.http.scaladsl.server.Directives._
+import akka.http.scaladsl.server.Route
+import akka.http.scaladsl.server.RouteResult.Complete
+import com.typesafe.scalalogging.LazyLogging
 import scala.concurrent.Await
+import org.service.ClientServers
 
-class ClientRouteConfig(implicit val system: ActorSystem) extends JsonUtils {
+class ClientRouteConfig(implicit val system: ActorSystem) extends JsonUtils with LazyLogging {
   val clientActor: ActorRef = system.actorOf(Props(new ClientActor()))
 
   implicit val mat: ActorMaterializer = ActorMaterializer()
@@ -28,11 +33,12 @@ class ClientRouteConfig(implicit val system: ActorSystem) extends JsonUtils {
     PathDirectives.pathPrefix("client") {
       concat(
         path("create") {
-          post {
-            entity(as[ClientRequest]) { client =>
-              val future = Patterns.ask(clientActor, SAVE(client), TimeUtils.timeoutMills)
-              Await.result(future, TimeUtils.atMostDuration)
-              RouteDirectives.complete(HttpEntity("Data saved successfully!"))
+          post{
+            entity(as[ClientRequest]){ cl=>
+              logger.info(s"Creating CLIENT= $cl")
+                onSuccess(ClientServers.saveClientData(cl)){ clientValue=>
+                complete(StatusCodes.Created,s"CREATED CLIENT= $cl")
+              }
             }
           }
         },
